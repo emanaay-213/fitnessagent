@@ -57,8 +57,8 @@ with col1:
     st.header("Chat with coach")
 
     # Create a container for chat messages
-    #chat_container = st.container(height=400)
-    chat_container = st.container()
+    chat_container = st.container(height=400)
+    #chat_container = st.container()
     
     # Create a container for the input box
     input_container = st.container()
